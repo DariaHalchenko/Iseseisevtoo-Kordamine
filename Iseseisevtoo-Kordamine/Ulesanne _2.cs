@@ -21,9 +21,12 @@ namespace Iseseisevtoo_Kordamine
            } 
             return arvud;
         }
+        //Funktsioon arvutab massiivi elementide arvu vahemikus -100 kuni +100
         public static int Elementide_arv (int[] arvud, int min, int max)
         {
             int elemendid  = 0;
+            
+            ////Läbime iga massiivi elemendi, kui element satub vahemikku, siis arvesti suureneb 
             foreach (int arv in arvud)
             {
                 if (arv >= min && arv <= max)
