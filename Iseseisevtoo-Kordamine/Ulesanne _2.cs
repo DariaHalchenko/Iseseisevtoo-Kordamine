@@ -13,6 +13,8 @@ namespace Iseseisevtoo_Kordamine
             Random random = new Random();
             Console.WriteLine(N);
             int[] arvud = new int[N];
+            
+            //Massiivi täitmine juhuarvudega 
             for (int i = 0; i < arvud.Length; i++)
             {
                 arvud[i] = random.Next(-150, 151);
