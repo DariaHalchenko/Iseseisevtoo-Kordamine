@@ -26,7 +26,7 @@ namespace Iseseisevtoo_Kordamine
         {
             int elemendid  = 0;
             
-            ////Läbime iga massiivi elemendi, kui element satub vahemikku, siis arvesti suureneb 
+            //Läbime iga massiivi elemendi, kui element satub vahemikku, siis arvesti suureneb 
             foreach (int arv in arvud)
             {
                 if (arv >= min && arv <= max)
